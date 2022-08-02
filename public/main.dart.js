@@ -26416,7 +26416,7 @@ _.a=a
 _.b=b
 _.c=c
 _.$ti=d},
-bY(){var s=A.b2r("http://20.233.20.36:8081/api/dias/imdaad/v1",5e4,!1,A.aR(["content-type","application/json","Access-Control-Allow-Origin","*"],t.N,t.z),5e4,new A.a5Q()),r=new A.R_(A.b([],t.lC),new A.EE(),new A.EE(),new A.EE()),q=new A.PH($,r,$,new A.abZ(),!1)
+bY(){var s=A.b2r("https://topnotchtechno.com:8081/api/dias/imdaad/v1",5e4,!1,A.aR(["content-type","application/json","Access-Control-Allow-Origin","*"],t.N,t.z),5e4,new A.a5Q()),r=new A.R_(A.b([],t.lC),new A.EE(),new A.EE(),new A.EE()),q=new A.PH($,r,$,new A.abZ(),!1)
 q.VG$=s
 q.VH$=new A.a9v(A.aN(t.Gf))
 r.F(r,new A.vp())
@@ -93129,7 +93129,7 @@ case 3:m=f
 s=5
 return A.n(p.bU(),$async$oo)
 case 5:A.cD("REQUEST[GET] => PATH: /snagging/export/xlsx ::: PARAM => "+n+" ::: ")
-l=A.uq("http://20.233.20.36:8081/api/dias/imdaad/v1/snagging/export/xlsx?"+n)
+l=A.uq("https://topnotchtechno.com:8081/api/dias/imdaad/v1/snagging/export/xlsx?"+n)
 m.toString
 s=6
 return A.n(A.bbK(l,A.aR(["content-type","application/json","Access-Control-Allow-Origin","*","Authorization","Bearer "+m],o,o)).ar(0,new A.a61(),t.P),$async$oo)
