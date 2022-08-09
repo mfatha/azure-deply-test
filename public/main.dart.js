@@ -32927,7 +32927,7 @@ break
 case 1:return A.A(q,r)}})
 return A.B($async$ai_,r)},
 auw(){var s=new A.bl(t.cT)
-s.l(0,"Today",1)
+s.l(0,"Last 24 Hour",1)
 s.l(0,"Last Week",7)
 s.l(0,"Last Month",30)
 s.l(0,"Last 3 Month",90)
