@@ -99093,10 +99093,16 @@ A.aul.prototype={
 $1(a){return B.bm},
 $S:249}
 A.aum.prototype={
-$1(a){var s,r=null,q=a.c.a.h(0,"reviewStatus").b,p=t.p,o=A.b([],p)
-if(A.a5(q)){s=this.a
-B.b.K(o,A.b([A.fL(B.r,B.et,r,B.Mw,18,r,new A.aui(s,a),B.J,"Accept"),A.fL(B.r,B.bz,r,B.Mx,18,r,new A.auj(s,a),B.J,"Reject")],p))}else{s=!A.a5(q)?J.U(q):"PENDING"
-B.b.K(o,A.b([A.kL(B.r,q==="ACCEPTED"?B.et:B.bz,s,!1)],p))}return A.bm(o,B.q,B.iD,B.o)},
+$1(a){var s,r,q,p,o=null,n=a.c.a,m=n.h(0,"reviewStatus").b,l=n.h(0,"staus").b
+n=t.p
+s=A.b([],n)
+r=l==="WFEA"
+if(r||l==="ACCEPTED"||l==="REJECTED"){q=r?"Accept":"Complete"
+p=this.a
+q=A.fL(B.r,B.et,o,B.Mw,18,o,new A.aui(p,a),B.J,q)
+r=r?"Reject":"Incomplete"
+B.b.K(s,A.b([q,A.fL(B.r,B.bz,o,B.Mx,18,o,new A.auj(p,a),B.J,r)],n))}else{r=!A.a5(m)?J.U(m):"PENDING"
+B.b.K(s,A.b([A.kL(B.r,m==="ACCEPTED"?B.et:B.bz,r,!1)],n))}return A.bm(s,B.q,B.iD,B.o)},
 $S:250}
 A.aui.prototype={
 $0(){this.a.a.$2(A.eb(J.U(this.b.c.a.h(0,"id").b),null),!0)},
@@ -120844,7 +120850,7 @@ r($,"baM","aNJ",()=>new A.alM())
 s($,"bl4","aRN",()=>A.b7o())
 s($,"bjT","b0H",()=>A.b4(["/landing",new A.ar6(),"/login",new A.ar7(),"/report",new A.ar8(),"/admin",new A.ar9()],t.N,A.ad("h(W)")))
 r($,"bk4","aNK",()=>{var q=t.N
-return A.b4(["reviewStatus","REVIEW STATUS","id","ID","review","REVIEW","refNumber","REF No.","staffId","STAFF ID","crewId","CREW ID","location","LOCATION","locationNumber","SHOWROOM / WAREHOUSE NO.","locationDetails","EXACT LOCATION","ownership","OWNERSHIP","findings","SNAGGING FINDINGS","beforePhoto","BEFORE PHOTO","status","STATUS","rectificationCost","RECTIFICATION COST","afterPhoto","AFTER PHOTO","priority","PRIORITY","remarks","REMARKS","reason","REASON","createdDate","ADDED DATE"],q,q)})
+return A.b4(["reviewStatus","REVIEW STATUS","id","ID","review","REVIEW","refNumber","REF No.","priority","PRIORITY","location","LOCATION","beforePhoto","BEFORE PHOTO","findings","SNAGGING FINDINGS","locationDetails","EXACT LOCATION","staffId","STAFF ID","crewId","CREW ID","locationNumber","SHOWROOM / WAREHOUSE NO.","ownership","OWNERSHIP","status","STATUS","rectificationCost","RECTIFICATION COST","afterPhoto","AFTER PHOTO","remarks","REMARKS","reason","REASON","createdDate","ADDED DATE"],q,q)})
 r($,"bne","hL",()=>$.b0v())
 r($,"biI","a8i",()=>A.b9o(A.ab6(A.b9Z(10)),A.aTA(B.rj,B.a9,1),4))
 r($,"biJ","a8j",()=>A.bbL(B.ht,A.aTA(B.rj,B.a9,1)))
