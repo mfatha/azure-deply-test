@@ -99093,7 +99093,7 @@ A.aul.prototype={
 $1(a){return B.bm},
 $S:249}
 A.aum.prototype={
-$1(a){var s,r,q,p,o=null,n=a.c.a,m=n.h(0,"reviewStatus").b,l=n.h(0,"staus").b
+$1(a){var s,r,q,p,o=null,n=a.c.a,m=n.h(0,"reviewStatus").b,l=n.h(0,"status").b
 n=t.p
 s=A.b([],n)
 r=l==="WFEA"
