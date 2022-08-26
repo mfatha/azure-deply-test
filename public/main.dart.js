@@ -99981,7 +99981,7 @@ b.u(q).toString
 if(!A.bJ(s.d)){q=s.d
 q.toString
 p=A.E(r,A.Vh(r,new A.aQ6(s),J.H(q),r,r,B.C),B.h,r,r,r,r,p.a.b/2,r,r,r,r,r,r)
-q=p}else q=A.E(B.q,B.Ln,B.h,r,r,r,r,r,r,r,r,r,r,r)
+q=p}else q=A.E(B.q,B.Lk,B.h,r,r,r,r,r,r,r,r,r,r,r)
 return s.h0(q)},
 bg(){this.er(new A.aQ8(this),t.z)}}
 A.aQ6.prototype={
@@ -100725,7 +100725,7 @@ l.toString
 o.push(A.E(i,A.fD(50,n,new A.b5(i,i,i,m,i,i,i,B.A),B.aE,30,J.e9(l,new A.aOG(),t.kZ).cu(0),new A.aOH(j),i,i,i,t.S),B.h,i,i,i,i,i,i,i,B.I,i,i,i))}if(!A.bJ(j.as)){n=j.as
 n.toString
 m=t.N
-o.push(A.E(i,A.b0M(B.aE,B.a0F,A.aVm(i,i,i,i,i,i,i,i,new A.aOI(j),!1,i,i,i,m),B.kc,i,n,new A.aOJ(j),!0,B.tl,m),B.h,i,i,i,i,i,i,B.tL,B.I,i,i,i))}else if(j.ax!==0&&A.bJ(j.as))o.push(B.Lp)
+o.push(A.E(i,A.b0M(B.aE,B.a0F,A.aVm(i,i,i,i,i,i,i,i,new A.aOI(j),!1,i,i,i,m),B.kc,i,n,new A.aOJ(j),!0,B.tl,m),B.h,i,i,i,i,i,i,B.tL,B.I,i,i,i))}else if(j.ax!==0&&A.bJ(j.as))o.push(B.Lo)
 n=$.aI()
 m=new A.dh(B.an,n)
 l=j.e.w
@@ -101728,7 +101728,7 @@ s=q.d
 r=A.a9(s).i("aa<1,c9<i>>")
 q.e=A.a_(new A.aa(s,new A.aNA(),r),!0,r.i("aC.E"))
 q.aq()},
-D(a,b){var s,r=null,q=t.p,p=A.E(r,A.b0(A.b([A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.a9,r,r,r,20,r,B.a0,r,r,r,20),B.Lv],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.b2,r,r,r,20,r,B.a0,r,r,r,20),B.Lx],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.j1,r,r,r,20,r,B.a0,r,r,r,20),B.Lk],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.m,r,r,r,20,r,B.a0,r,r,r,20),B.Lm],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.cU,r,r,r,20,r,B.a0,r,r,r,20),B.Ll],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.bH,r,r,r,20,r,B.a0,r,r,r,20),B.Lt],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r)],q),B.p,B.eK,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),o=A.b([A.b6("Filter By : ",r,r,r,r,$.e8().dd(B.bn,b.u(t.w).f.c*12),r,r,r)],q),n=this.d
+D(a,b){var s,r=null,q=t.p,p=A.E(r,A.b0(A.b([A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.a9,r,r,r,20,r,B.a0,r,r,r,20),B.Lv],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.b2,r,r,r,20,r,B.a0,r,r,r,20),B.Ll],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.j1,r,r,r,20,r,B.a0,r,r,r,20),B.Lt],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.m,r,r,r,20,r,B.a0,r,r,r,20),B.Lq],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.cU,r,r,r,20,r,B.a0,r,r,r,20),B.Lw],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),A.E(B.q,A.b0(A.b([A.E(r,r,B.h,B.bH,r,r,r,20,r,B.a0,r,r,r,20),B.Ln],q),B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r)],q),B.p,B.eK,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r),o=A.b([A.b6("Filter By : ",r,r,r,r,$.e8().dd(B.bn,b.u(t.w).f.c*12),r,r,r)],q),n=this.d
 if(!A.bJ(n)){s=$.rV()
 n=n[0]
 o.push(A.E(r,A.fD(40,s,new A.b5(r,r,r,A.cX(15),r,r,r,B.A),B.aE,20,this.e,new A.aNy(this),r,r,n,t.N),B.h,r,r,r,r,40,r,r,r,r,r,130))}return A.E(r,A.b0(A.b([p,A.E(r,A.b0(o,B.p,B.J,B.o),B.h,r,r,r,r,r,r,r,r,r,r,r)],q),B.p,B.ap,B.o),B.h,r,r,r,r,40,r,B.bR,r,r,r,r)}}
@@ -103552,7 +103552,7 @@ $.i2().$1$0(d).toString
 d=b.u(g).f.a.a<850?20:e/2.7
 q=A.iU(B.bh,new A.ef(new A.e6(B.r1,h)),B.k,7,3,B.fQ,h,h,B.b9)
 p=t.p
-o=A.bb(A.b7(A.b([B.NZ,A.E(h,B.Lo,B.h,h,h,h,h,h,h,h,new A.ae(0,10,0,0),h,h,h)],p),B.p,B.J,B.o),2)
+o=A.bb(A.b7(A.b([B.NZ,A.E(h,B.Lm,B.h,h,h,h,h,h,h,h,new A.ae(0,10,0,0),h,h,h)],p),B.p,B.J,B.o),2)
 n=A.E(h,B.LJ,B.h,h,h,h,h,h,h,h,new A.ae(0,0,0,5),h,h,h)
 m=A.aj(h,h,B.m,h,h,h,h,h,h,h,h,b.u(g).f.c*14,h,h,h,h,!0,h,h,h,h,h,h,h,h)
 m=A.E(h,A.cS(h,$.rV().cl(A.aj(h,h,B.m,h,h,h,h,h,h,h,h,b.u(g).f.c*12,h,h,h,h,!0,h,h,h,h,h,h,h,h),"Username"),B.aa,h,1,!1,new A.aJh(i),h,new A.aJi(i),m,B.P,new A.aJj()),B.h,h,h,h,h,h,h,h,B.tR,h,h,h)
@@ -123818,21 +123818,21 @@ B.Lh=new A.dk("Edit User",B.u2)
 B.Li=new A.dk("Add Client",B.fJ)
 B.Lj=new A.dk("Create",B.fJ)
 B.S=new A.ng(2,"center")
-B.Lk=new A.dl("REJECTED BY VENDOR",B.q,B.S,B.m,!1,null)
-B.Ll=new A.dl("PENDING DE SNAGGING",B.q,B.S,B.m,!1,null)
-B.Lm=new A.dl("WAITING FOR IMDAAD APPROVAL",B.q,B.S,B.m,!1,null)
-B.Ln=new A.dl("No users found",B.q,B.S,B.bf,!1,null)
+B.Lk=new A.dl("No users found",B.q,B.S,B.bf,!1,null)
 B.fC=new A.dl("No data found",B.q,B.S,B.bf,!1,null)
 B.tl=new A.dl("Users",B.q,B.S,B.a9,!1,null)
-B.Lo=new A.dl("FM-PRO (Dubai Traders) Application",B.q,B.S,B.a9,!1,null)
-B.Lp=new A.dl("No Users found, under this organization",B.q,B.S,B.bf,!1,null)
+B.Ll=new A.dl("DE-SNAGGING DONE",B.q,B.S,B.m,!1,null)
+B.Lm=new A.dl("FM-PRO (Dubai Traders) Application",B.q,B.S,B.a9,!1,null)
+B.Ln=new A.dl("CLOSED DE-SNAGGING",B.q,B.S,B.m,!1,null)
+B.Lo=new A.dl("No Users found, under this organization",B.q,B.S,B.bf,!1,null)
+B.Lq=new A.dl("DE-SNAGGING VERIFICATION",B.q,B.S,B.m,!1,null)
 B.ju=new A.ng(3,"justify")
 B.Lr=new A.dl("We are generating the respective report, based on your report setup. \nWe will send the mail or download the respective report as per your setup, you can continue you work. \nYou can continue your work, please do not close or refresh the browser. until further notice",B.q,B.ju,B.m,!1,null)
 B.Ls=new A.dl("Pageable",B.aM,B.S,B.m,!1,null)
-B.Lt=new A.dl("COMPLETED DE SNAGGING",B.q,B.S,B.m,!1,null)
+B.Lt=new A.dl("VENDOR REJECTED",B.q,B.S,B.m,!1,null)
 B.Lu=new A.dl("Send mail",B.aM,B.S,B.m,!1,null)
 B.Lv=new A.dl("SNAGGING",B.q,B.S,B.m,!1,null)
-B.Lx=new A.dl("DE SNAGGING",B.q,B.S,B.m,!1,null)
+B.Lw=new A.dl("IN-PROGRESS DE-SNAGGING",B.q,B.S,B.m,!1,null)
 B.tm=new A.dl("No Image",B.q,B.S,B.a9,!1,null)
 B.fH=new A.ae(5,10,5,10)
 B.Nd=new A.FU(null)
@@ -124345,8 +124345,8 @@ B.hu=new A.em(16,"ZWJ")
 B.q6=new A.em(17,"WSegSpace")
 B.D5=new A.em(18,"Unknown")
 B.PG=A.b(s([B.q3,B.fd,B.bj,B.jF,B.jG,B.q7,B.hv,B.a2w,B.hw,B.hx,B.ck,B.q4,B.q5,B.ht,B.d2,B.jE,B.hu,B.q6,B.D5]),A.ad("n<em*>"))
-B.Lq=new A.dl("Disabling this will fetch all the records without image.",B.q,B.S,B.bf,!1,null)
-B.PH=A.b(s([B.Lq]),t.Ma)
+B.Lp=new A.dl("Disabling this will fetch all the records without image.",B.q,B.S,B.bf,!1,null)
+B.PH=A.b(s([B.Lp]),t.Ma)
 B.uL=A.b(s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none"]),t.i)
 B.uM=A.b(s([0,0,26624,1023,65534,2047,65534,2047]),t.w0)
 B.bd=new A.lV(0,"label")
@@ -124619,8 +124619,8 @@ B.Fb=new A.Xq()
 B.Fc=new A.Xr()
 B.Fd=new A.Xs()
 B.v_=A.b(s([B.fl,B.F9,B.Fe,B.F8,B.Fa,B.Fb,B.Fc,B.Fd]),A.ad("n<hQ*>"))
-B.Lw=new A.dl("Please wait, we are build the chart",B.q,B.S,B.a9,!1,null)
-B.eE=A.b(s([B.Lw,B.cJ]),t.Ma)
+B.Lx=new A.dl("Please wait, we are build the chart",B.q,B.S,B.a9,!1,null)
+B.eE=A.b(s([B.Lx,B.cJ]),t.Ma)
 B.bN=new A.kM(0,"leading")
 B.bk=new A.kM(1,"title")
 B.bv=new A.kM(2,"subtitle")
