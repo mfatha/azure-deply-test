@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "48da700ced7ad4672f5a22ce74092a24",
+  "assets/AssetManifest.json": "f917044646417b7411235437db31bd37",
 "assets/assets/config/app_config.json": "3b7b99988899abdf92778b1eee7ed1ed",
 "assets/assets/fonts/Poppins/Poppins-Black.ttf": "0573b9231a8316427ad6e751b52e87a4",
 "assets/assets/fonts/Poppins/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
@@ -15,6 +15,7 @@ const RESOURCES = {
 "assets/assets/images/bg-01.png": "573d52fadaa66c5efdbedf3470356952",
 "assets/assets/images/logo-bbg.png": "97a126fb5302d4f8d1e53ec32bf30ca9",
 "assets/assets/images/logo-icon.png": "f7512a1b7c8a43be75cb74cc998e16dc",
+"assets/assets/images/logo-wbg-02.jpg": "b6f652e2b5363f941a20b1289a6a7656",
 "assets/assets/images/logo-wbg.png": "2b5e6ab0b862731cdfe69f189d363ce1",
 "assets/assets/images/logo2-bbg.png": "e322f758229f8ad18a9334958c4eaf19",
 "assets/FontManifest.json": "396d292d777dede3077ac80d9e3c1fab",
@@ -49,9 +50,9 @@ const RESOURCES = {
 "favicon.ico": "4694e582a65f2ff630556a77b34efd81",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/apple-touch-icon.png": "462ea2d1c53197386d29fb3472fc0021",
-"index.html": "a792386257427df95434f1cf15837f50",
-"/": "a792386257427df95434f1cf15837f50",
-"main.dart.js": "5e9cfb7cd118b1c2a8b38f009138fe09",
+"index.html": "ca114610fbc82e5aa1da67ff17230c30",
+"/": "ca114610fbc82e5aa1da67ff17230c30",
+"main.dart.js": "42e4361ab7293919677889ff65ee3dcc",
 "manifest.json": "8b975cc7aeb0a18161321ebe921d5f35",
 "version.json": "b665b454975d8dbc3248260a14141c76"
 };
