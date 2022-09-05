@@ -99536,7 +99536,7 @@ A.aaY.prototype={
 $1(a){var s,r
 if(a.b===200){s=B.aC.cK(a.w)
 r=A.b_9("data:application/octet-stream;charset=utf-16le;base64,"+B.rP.gnB().fp(s))
-r.setAttribute("download",this.a.c==="XLSX"?"export.xlsx":"export.pdf")
+r.setAttribute("download",this.a.c==="XLS"?"export.xls":"export.pdf")
 r.click()
 s=document.body
 s.toString
@@ -101205,7 +101205,7 @@ o=A.cO(15)
 n=i.r.c
 m=t.s
 l=t.fo
-n=A.A(h,A.fh(40,p,new A.b4(h,h,h,o,h,h,h,B.B),B.aH,20,A.a3(new A.ag(A.b(["XLSX"],m),new A.aQc(),l),!0,l.i("aF.E")),new A.aQd(i),h,new A.aQe(i),n,t.N),B.h,h,h,h,h,h,h,h,B.G,h,h,h)
+n=A.A(h,A.fh(40,p,new A.b4(h,h,h,o,h,h,h,B.B),B.aH,20,A.a3(new A.ag(A.b(["XLS"],m),new A.aQc(),l),!0,l.i("aF.E")),new A.aQd(i),h,new A.aQe(i),n,t.N),B.h,h,h,h,h,h,h,h,B.G,h,h,h)
 p=i.r.b
 p=!A.a0(p)?A.b(p.split(","),m):A.b([],m)
 o=$.bD().cs(A.a9(h,h,B.m,h,h,h,h,h,h,h,h,b.u(f).f.c*12,h,h,h,h,!0,h,h,h,h,h,h,h,h),"Columns")
