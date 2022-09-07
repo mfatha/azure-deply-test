@@ -25648,7 +25648,7 @@ _.a=a
 _.b=b
 _.c=c
 _.$ti=d},
-c3(){var s=A.ban("http://localhost:8082/api/dias/imdaad/v1",5e4,!1,A.bc(["content-type","application/json","Access-Control-Allow-Origin","*"],t.N,t.z),5e4,new A.aaR()),r=new A.TX(A.b([],t.lC),new A.Gs(),new A.Gs(),new A.Gs()),q=new A.Sf($,r,$,new A.agL(),!1)
+c3(){var s=A.ban("https://topnotchtechno.com:8081/api/dias/imdaad/v1",5e4,!1,A.bc(["content-type","application/json","Access-Control-Allow-Origin","*"],t.N,t.z),5e4,new A.aaR()),r=new A.TX(A.b([],t.lC),new A.Gs(),new A.Gs(),new A.Gs()),q=new A.Sf($,r,$,new A.agL(),!1)
 q.a06$=s
 q.a07$=new A.adt(A.bI(t.Gf))
 r.I(r,new A.wS())
@@ -98227,7 +98227,7 @@ case 4:s=3
 return A.o(m.cG(l.j(c.a,"DIAS_GLOBAL_USER_KEY_TOKEN")),$async$uc)
 case 3:n=c
 A.fy("REQUEST[POST] => PATH: /snagging/export/report ::: PARAM => "+B.aq.i9(a.cU(),null)+" ::: ")
-p=A.vD("http://localhost:8082/api/dias/imdaad/v1/snagging/export/report?")
+p=A.vD("https://topnotchtechno.com:8081/api/dias/imdaad/v1/snagging/export/report?")
 n.toString
 o=t.N
 o=A.bc(["content-type","application/json","Access-Control-Allow-Origin","*","Authorization","Bearer "+n],o,o)
