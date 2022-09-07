@@ -101253,7 +101253,7 @@ n=p.r
 l=Date.now()
 k=A.ho("yyyy-MM-dd",null).eh(0,new A.b2(l,!1))
 n.d="tempReport"
-if(A.a0(k))o.r="SNAGREPORT - "+k
+if(!A.a0(k))o.r="SNAGREPORT - "+k
 else o.r="DEMO_EMAIL_IMDAAD"
 o.c=!1
 j=new A.aJ(t.Z)
@@ -102282,8 +102282,7 @@ n=t.s
 o=!A.a0(o)?A.b(o.split(","),n):A.b([],n)
 q.push(A.A(k,A.b0h(r,new A.aP5(l),p,o),B.h,k,k,k,k,k,k,k,B.G,k,k,k))
 s=new A.dt(B.as,s)
-r=l.e.a
-s.sbR(0,r!=null?B.f.j(r):"")
+s.sbR(0,"0")
 r=A.a9(k,k,B.m,k,k,k,k,k,k,k,k,b.u(j).f.c*14,k,k,k,k,!0,k,k,k,k,k,k,k,k)
 q.push(A.A(k,A.cJ(s,$.bD().cs(A.a9(k,k,B.m,k,k,k,k,k,k,k,k,b.u(j).f.c*12,k,k,k,k,!0,k,k,k,k,k,k,k,k),"Page No."),B.qh,k,1,!1,new A.aP6(l),k,new A.aOX(l),r,B.O,new A.aOY()),B.h,k,k,k,k,k,k,k,B.G,k,k,k))
 q.push(A.A(k,A.l6(B.m,new A.aOZ(l,b),B.l,"Search"),B.h,k,k,k,k,k,k,B.eJ,k,k,k,k))
