@@ -25676,7 +25676,7 @@ _.a=a
 _.b=b
 _.c=c
 _.$ti=d},
-c3(){var s=A.bav("https://topnotchtechno.com:8081/api/dias/imdaad/v1",5e4,!1,A.bc(["content-type","application/json","Access-Control-Allow-Origin","*"],t.N,t.z),5e4,new A.aaV()),r=new A.TZ(A.b([],t.lC),new A.Gu(),new A.Gu(),new A.Gu()),q=new A.Si($,r,$,new A.agP(),!1)
+c3(){var s=A.bav("http://20.216.43.131:8081/api/dias/imdaad/v1",5e4,!1,A.bc(["content-type","application/json","Access-Control-Allow-Origin","*"],t.N,t.z),5e4,new A.aaV()),r=new A.TZ(A.b([],t.lC),new A.Gu(),new A.Gu(),new A.Gu()),q=new A.Si($,r,$,new A.agP(),!1)
 q.a06$=s
 q.a07$=new A.adx(A.bI(t.Gf))
 r.I(r,new A.wU())
@@ -98291,7 +98291,7 @@ case 4:s=3
 return A.o(m.cG(l.j(c.a,"DIAS_GLOBAL_USER_KEY_TOKEN")),$async$uc)
 case 3:n=c
 A.fy("REQUEST[POST] => PATH: /snagging/export/report ::: PARAM => "+B.aq.i9(a.cU(),null)+" ::: ")
-p=A.vF("https://topnotchtechno.com:8081/api/dias/imdaad/v1/snagging/export/report?")
+p=A.vF("http://20.216.43.131:8081/api/dias/imdaad/v1/snagging/export/report?")
 n.toString
 o=t.N
 o=A.bc(["content-type","application/json","Access-Control-Allow-Origin","*","Authorization","Bearer "+n],o,o)
@@ -103635,7 +103635,7 @@ s=J.U(q)
 this.a.a.$3(A.dM(J.U(r.h(0,"id").b),null),s,!1)},
 $S:0}
 A.ayx.prototype={
-$1(a){var s,r=null,q=a.c.a.h(0,"refNumber").b,p=J.bU(q,J.d(this.a[this.b],"beforePhoto")?"_BEFORE":"_AFTER"),o=B.c.S("https://topnotch-webapp.azurewebsites.net/uploads/",p),n=t.p,m=A.b([],n)
+$1(a){var s,r=null,q=a.c.a.h(0,"refNumber").b,p=J.bU(q,J.d(this.a[this.b],"beforePhoto")?"_BEFORE":"_AFTER"),o=B.c.S("http://topnotch-webapp1.azurewebsites.net/uploads/",p),n=t.p,m=A.b([],n)
 if(p==null)B.b.R(m,A.b([B.G3],n))
 else{s=J.d(p,"null")
 if(s)B.b.R(m,A.b([B.u_],n))
