@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d912a1803464a908a52aff20ce6fd264",
+  "assets/AssetManifest.json": "6330fec537b0683ec93361ed0028da7d",
 "assets/assets/config/app_config.json": "3b7b99988899abdf92778b1eee7ed1ed",
 "assets/assets/fonts/Poppins/Poppins-Black.ttf": "0573b9231a8316427ad6e751b52e87a4",
 "assets/assets/fonts/Poppins/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
@@ -13,12 +13,15 @@ const RESOURCES = {
 "assets/assets/fonts/Poppins/Poppins-Regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
 "assets/assets/fonts/Poppins/Poppins-SemiBold.ttf": "4cdacb8f89d588d69e8570edcbe49507",
 "assets/assets/images/bg-01.png": "573d52fadaa66c5efdbedf3470356952",
+"assets/assets/images/engineer.png": "bdbd2a30e62255aff018f4df47f880be",
 "assets/assets/images/logo-bbg.png": "97a126fb5302d4f8d1e53ec32bf30ca9",
 "assets/assets/images/logo-icon.png": "f7512a1b7c8a43be75cb74cc998e16dc",
+"assets/assets/images/logo-wbg-02.jpg": "b6f652e2b5363f941a20b1289a6a7656",
 "assets/assets/images/logo-wbg.png": "2b5e6ab0b862731cdfe69f189d363ce1",
+"assets/assets/images/logo2-bbg.png": "e322f758229f8ad18a9334958c4eaf19",
 "assets/FontManifest.json": "396d292d777dede3077ac80d9e3c1fab",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "a71ffa2adfd653e0ecbe2c2e5af06d95",
+"assets/NOTICES": "c21c080f333bba87ccc822f4a625ab8c",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
@@ -48,9 +51,9 @@ const RESOURCES = {
 "favicon.ico": "4694e582a65f2ff630556a77b34efd81",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/apple-touch-icon.png": "462ea2d1c53197386d29fb3472fc0021",
-"index.html": "0068ea223b775aa38fbee1900b57c8cb",
-"/": "0068ea223b775aa38fbee1900b57c8cb",
-"main.dart.js": "6ce4756e070f55d0ca0c5a5b035edc62",
+"index.html": "d4de912baf19b19f95bcc5128f2750e1",
+"/": "d4de912baf19b19f95bcc5128f2750e1",
+"main.dart.js": "4d141949862d710e98e2aec8eaed9e46",
 "manifest.json": "8b975cc7aeb0a18161321ebe921d5f35",
 "version.json": "b665b454975d8dbc3248260a14141c76"
 };
