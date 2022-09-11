@@ -18,7 +18,7 @@ const RESOURCES = {
 "assets/assets/images/logo-icon.png": "f7512a1b7c8a43be75cb74cc998e16dc",
 "assets/assets/images/logo-wbg-02.jpg": "b6f652e2b5363f941a20b1289a6a7656",
 "assets/assets/images/logo-wbg.png": "2b5e6ab0b862731cdfe69f189d363ce1",
-"assets/assets/images/logo2-bbg.png": "e322f758229f8ad18a9334958c4eaf19",
+"assets/assets/images/logo2-bbg.png": "e2e41b32e35333c64c8d01b7f84a5313",
 "assets/FontManifest.json": "396d292d777dede3077ac80d9e3c1fab",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/NOTICES": "c21c080f333bba87ccc822f4a625ab8c",
@@ -51,9 +51,9 @@ const RESOURCES = {
 "favicon.ico": "4694e582a65f2ff630556a77b34efd81",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/apple-touch-icon.png": "462ea2d1c53197386d29fb3472fc0021",
-"index.html": "6d9f1779f377ae2ac0fd9d50217406e4",
-"/": "6d9f1779f377ae2ac0fd9d50217406e4",
-"main.dart.js": "208554ff9463f2c197f49da4f9030aa6",
+"index.html": "e0f5ca6a76877767b4466567ac7d225d",
+"/": "e0f5ca6a76877767b4466567ac7d225d",
+"main.dart.js": "11d2f2019302bd3a96ee3f70ff84a9fb",
 "manifest.json": "8b975cc7aeb0a18161321ebe921d5f35",
 "version.json": "b665b454975d8dbc3248260a14141c76"
 };
