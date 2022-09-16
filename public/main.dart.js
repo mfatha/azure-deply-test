@@ -26696,10 +26696,10 @@ bfc(a){var s,r,q,p="beforePhoto",o=t.N,n=A.W(o,t.h6),m=$.aVh(),l=m.gef(m).eF(0,n
 for(o=l.length,s=0;s<l.length;l.length===o||(0,A.a2)(l),++s){r=l[s]
 q=a.cU().h(0,r)
 m=J.cT(r)
-if(m.k(r,"refNumber"))q=A.e(a.ch)
-else if(m.k(r,p)||m.k(r,"afterPhoto"))if(m.k(r,p)){q=a.d
+if(m.k(r,"actualRefNumber"))q=A.e(a.d)
+else if(m.k(r,p)||m.k(r,"afterPhoto"))if(m.k(r,p)){q=a.e
 q=q!=null?q:null}else{q=a.c
-q=q!=null?q:null}else if(m.k(r,"priority")){m=a.f
+q=q!=null?q:null}else if(m.k(r,"priority")){m=a.r
 q=m!=null?m.a:null}n.m(0,r,new A.ou(new A.fT(),q))}return A.arT(n,!1)},
 ayn:function ayn(a,b){this.a=a
 this.b=b},
@@ -26771,30 +26771,31 @@ ay8(a){var s="priority",r=new A.i3(),q=J.P(a)
 r.a=q.h(a,"id")
 r.b=q.h(a,"active")
 r.c=q.h(a,"afterPhoto")
-r.d=q.h(a,"beforePhoto")
-r.f=q.h(a,s)!=null?A.UL(q.h(a,s)):null
-r.e=q.h(a,"createdBy")
-r.r=q.h(a,"createdById")
-r.w=q.h(a,"createdDate")
-r.x=q.h(a,"crewId")
-r.y=q.h(a,"findings")
-r.z=q.h(a,"location")
-r.Q=q.h(a,"locationDetails")
-r.as=q.h(a,"locationNumber")
-r.at=q.h(a,"ownership")
-r.ax=q.h(a,"reason")
-r.ay=q.h(a,"rectificationCost")
-r.ch=q.h(a,"refNumber")
-r.CW=q.h(a,"remarks")
-r.cx=q.h(a,"reviewStatus")
-r.cy=q.h(a,"staffId")
-r.db=q.h(a,"status")
-r.dx=q.h(a,"updateBy")
-r.dy=q.h(a,"updateById")
-r.fr=q.h(a,"updatedDate")
+r.d=q.h(a,"actualRefNumber")
+r.e=q.h(a,"beforePhoto")
+r.r=q.h(a,s)!=null?A.UL(q.h(a,s)):null
+r.f=q.h(a,"createdBy")
+r.w=q.h(a,"createdById")
+r.x=q.h(a,"createdDate")
+r.y=q.h(a,"crewId")
+r.z=q.h(a,"findings")
+r.Q=q.h(a,"location")
+r.as=q.h(a,"locationDetails")
+r.at=q.h(a,"locationNumber")
+r.ax=q.h(a,"ownership")
+r.ay=q.h(a,"reason")
+r.ch=q.h(a,"rectificationCost")
+r.CW=q.h(a,"refNumber")
+r.cx=q.h(a,"remarks")
+r.cy=q.h(a,"reviewStatus")
+r.db=q.h(a,"staffId")
+r.dx=q.h(a,"status")
+r.dy=q.h(a,"updateBy")
+r.fr=q.h(a,"updateById")
+r.fx=q.h(a,"updatedDate")
 return r},
 i3:function i3(){var _=this
-_.fr=_.dy=_.dx=_.db=_.cy=_.cx=_.CW=_.ch=_.ay=_.ax=_.at=_.as=_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=_.c=_.b=_.a=null},
+_.fx=_.fr=_.dy=_.dx=_.db=_.cy=_.cx=_.CW=_.ch=_.ay=_.ax=_.at=_.as=_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=_.c=_.b=_.a=null},
 pu:function pu(){this.a=null},
 aVB(a){var s=new A.fC(),r=J.P(a)
 s.a=r.h(a,"id")
@@ -103569,7 +103570,7 @@ m=h.length
 l=J.U5(m,t.S)
 for(k=0;k<m;++k)l[k]=k
 j=A.ad(l).i("ag<1,cX>")
-q=A.a3(new A.ag(l,new A.ayG(p,h,o,n),j),!0,j.i("aH.E"))
+q=A.a3(new A.ag(l,new A.ayG(p,o,h,n),j),!0,j.i("aH.E"))
 s=1
 break
 case 1:return A.v(q,r)}})
@@ -103586,15 +103587,15 @@ $1(a){return a.gaJ(a)},
 $S:104}
 A.ayG.prototype={
 $1(a){var s,r,q,p,o=this,n=null
-if(a===0||a===1){s=o.b[a]
-r=o.c[a]
+if(a===0||a===1||J.d(o.b[a],"refNumber")){s=o.c[a]
+r=o.b[a]
 q=new A.ayv().$1(a)
-return A.lC(!1,!0,!0,!1,!0,!0,!1,!1,!0,!0,r,n,new A.ayw().$1(a),!0,80,!0,n,B.am,s,B.am,q,200)}else if(a===2){s=o.b[a]
-return A.lC(!1,!0,!0,!1,!0,!0,!1,!1,!0,!0,o.c[a],n,B.cw,!1,100,!1,new A.ayx(o.a),B.am,s,B.am,new A.jH(),200)}else{s=o.c
-if(J.d(s[a],"beforePhoto")||J.d(s[a],"afterPhoto")){r=o.b[a]
+return A.lC(!1,!0,!0,!1,!0,!0,!1,!1,!0,!0,r,n,new A.ayw().$1(a),!0,80,!0,n,B.am,s,B.am,q,200)}else if(a===2){s=o.c[a]
+return A.lC(!1,!0,!0,!1,!0,!0,!1,!1,!0,!0,o.b[a],n,B.cw,!1,100,!1,new A.ayx(o.a),B.am,s,B.am,new A.jH(),200)}else{s=o.b
+if(J.d(s[a],"beforePhoto")||J.d(s[a],"afterPhoto")){r=o.c[a]
 return A.lC(!1,!0,!0,!1,!0,!0,!1,!1,!0,!0,s[a],n,B.bz,!1,200,!0,new A.ayy(s,a),B.am,r,B.am,new A.jH(),220)}else{r=o.d
-if(!A.bE(r)&&J.d(s[a],"priority")){q=o.b[a]
-return A.lC(!1,!0,!0,!1,!0,!0,!1,!1,!0,!0,s[a],n,B.bz,!1,150,!1,new A.ayz(o.a,r),B.am,q,B.am,new A.jH(),200)}else{r=o.b
+if(!A.bE(r)&&J.d(s[a],"priority")){q=o.c[a]
+return A.lC(!1,!0,!0,!1,!0,!0,!1,!1,!0,!0,s[a],n,B.bz,!1,150,!1,new A.ayz(o.a,r),B.am,q,B.am,new A.jH(),200)}else{r=o.c
 if(J.d(s[a],"status")){r=r[a]
 s=J.d(s[a],"ACCEPTED")||J.d(s[a],"REJECTED")?"VENDOR "+A.e(s[a]):s[a]
 q=new A.ayA().$1(a)
@@ -103790,28 +103791,29 @@ cU(){var s,r=this,q=new A.aI(t.Z)
 q.m(0,"id",r.a)
 q.m(0,"active",r.b)
 q.m(0,"afterPhoto",r.c)
-q.m(0,"beforePhoto",r.d)
-s=r.f
+q.m(0,"actualRefNumber",r.d)
+q.m(0,"beforePhoto",r.e)
+s=r.r
 if(s!=null)q.m(0,"priority",s.a)
-q.m(0,"createdBy",r.e)
-q.m(0,"createdById",r.r)
-q.m(0,"createdDate",r.w)
-q.m(0,"crewId",r.x)
-q.m(0,"findings",r.y)
-q.m(0,"location",r.z)
-q.m(0,"locationDetails",r.Q)
-q.m(0,"locationNumber",r.as)
-q.m(0,"ownership",r.at)
-q.m(0,"reason",r.ax)
-q.m(0,"rectificationCost",r.ay)
-q.m(0,"refNumber",r.ch)
-q.m(0,"remarks",r.CW)
-q.m(0,"reviewStatus",r.cx)
-q.m(0,"staffId",r.cy)
-q.m(0,"status",r.db)
-q.m(0,"updateBy",r.dx)
-q.m(0,"updateById",r.dy)
-q.m(0,"updatedDate",r.fr)
+q.m(0,"createdBy",r.f)
+q.m(0,"createdById",r.w)
+q.m(0,"createdDate",r.x)
+q.m(0,"crewId",r.y)
+q.m(0,"findings",r.z)
+q.m(0,"location",r.Q)
+q.m(0,"locationDetails",r.as)
+q.m(0,"locationNumber",r.at)
+q.m(0,"ownership",r.ax)
+q.m(0,"reason",r.ay)
+q.m(0,"rectificationCost",r.ch)
+q.m(0,"refNumber",r.CW)
+q.m(0,"remarks",r.cx)
+q.m(0,"reviewStatus",r.cy)
+q.m(0,"staffId",r.db)
+q.m(0,"status",r.dx)
+q.m(0,"updateBy",r.dy)
+q.m(0,"updateById",r.fr)
+q.m(0,"updatedDate",r.fx)
 return q}}
 A.pu.prototype={
 cU(){var s=new A.aI(t.Z)
@@ -133256,7 +133258,7 @@ r($,"bf5","aVg",()=>new A.aoE())
 s($,"bpf","aZt",()=>A.bbt())
 s($,"bo5","b7N",()=>A.bc(["/landing",new A.aub(),"/login",new A.auc(),"/report",new A.aud(),"/admin",new A.aue()],t.N,A.az("h(M)")))
 r($,"bog","aVh",()=>{var q=t.N
-return A.bc(["reviewStatus","REVIEW STATUS","id","ID","review","REVIEW","refNumber","REF No.","priority","PRIORITY","location","LOCATION","beforePhoto","BEFORE PHOTO","findings","SNAGGING FINDINGS","locationDetails","EXACT LOCATION","staffId","STAFF ID","crewId","CREW ID","locationNumber","SHOWROOM / WAREHOUSE NO.","ownership","OWNERSHIP","status","STATUS","rectificationCost","RECTIFICATION COST","afterPhoto","AFTER PHOTO","remarks","REMARKS","reason","REASON","createdDate","ADDED DATE","updatedDate","MODIFIED DATE"],q,q)})
+return A.bc(["reviewStatus","REVIEW STATUS","id","ID","review","REVIEW","refNumber","IMAGE_NO","actualRefNumber","REF No.","priority","PRIORITY","location","LOCATION","beforePhoto","BEFORE PHOTO","findings","SNAGGING FINDINGS","locationDetails","EXACT LOCATION","staffId","STAFF ID","crewId","CREW ID","locationNumber","SHOWROOM / WAREHOUSE NO.","ownership","OWNERSHIP","status","STATUS","rectificationCost","RECTIFICATION COST","afterPhoto","AFTER PHOTO","remarks","REMARKS","reason","REASON","createdDate","ADDED DATE","updatedDate","MODIFIED DATE"],q,q)})
 r($,"bqS","ie",()=>$.b7A())
 r($,"bmV","aag",()=>A.bdD(A.adp(A.bed(10)),A.b_q(B.tz,B.ak,1),4))
 r($,"bmW","aah",()=>A.bfZ(B.i4,A.b_q(B.tz,B.ak,1)))
