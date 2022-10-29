@@ -3,59 +3,60 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6330fec537b0683ec93361ed0028da7d",
-"assets/assets/config/app_config.json": "3b7b99988899abdf92778b1eee7ed1ed",
-"assets/assets/fonts/Poppins/Poppins-Black.ttf": "0573b9231a8316427ad6e751b52e87a4",
-"assets/assets/fonts/Poppins/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
-"assets/assets/fonts/Poppins/Poppins-ExtraBold.ttf": "544fa4f2678a8285eb88b8dfe503c90c",
+  "favicon-16x16.png": "f8943346d8e7fd2e28ae9b1d08f75635",
+"version.json": "b665b454975d8dbc3248260a14141c76",
+"favicon.ico": "4694e582a65f2ff630556a77b34efd81",
+"index.html": "92b3eec1a504396228d4895779c06531",
+"/": "92b3eec1a504396228d4895779c06531",
+"main.dart.js": "1d9af9a4214e76277685790fa9b3cc10",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"icons/apple-touch-icon.png": "462ea2d1c53197386d29fb3472fc0021",
+"manifest.json": "cf08e5c67f13fc8769ec806faccdc1ac",
+"assets/AssetManifest.json": "6330fec537b0683ec93361ed0028da7d",
+"assets/NOTICES": "87e04589b333c56faebaf14e7ebda73f",
+"assets/FontManifest.json": "396d292d777dede3077ac80d9e3c1fab",
+"assets/packages/flutter_neumorphic/fonts/NeumorphicIcons.ttf": "32be0c4c86773ba5c9f7791e69964585",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/flutter_icons/fonts/Octicons.ttf": "73b8cff012825060b308d2162f31dbb2",
+"assets/packages/flutter_icons/fonts/Feather.ttf": "6beba7e6834963f7f171d3bdd075c915",
+"assets/packages/flutter_icons/fonts/Entypo.ttf": "744ce60078c17d86006dd0edabcd59a7",
+"assets/packages/flutter_icons/fonts/FontAwesome5_Brands.ttf": "c39278f7abfc798a241551194f55e29f",
+"assets/packages/flutter_icons/fonts/MaterialCommunityIcons.ttf": "3c851d60ad5ef3f2fe43ebd263490d78",
+"assets/packages/flutter_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
+"assets/packages/flutter_icons/fonts/Foundation.ttf": "e20945d7c929279ef7a6f1db184a4470",
+"assets/packages/flutter_icons/fonts/weathericons.ttf": "4618f0de2a818e7ad3fe880e0b74d04a",
+"assets/packages/flutter_icons/fonts/Ionicons.ttf": "b2e0fc821c6886fb3940f85a3320003e",
+"assets/packages/flutter_icons/fonts/FontAwesome5_Solid.ttf": "b70cea0339374107969eb53e5b1f603f",
+"assets/packages/flutter_icons/fonts/FontAwesome5_Regular.ttf": "f6c6f6c8cb7784254ad00056f6fbd74e",
+"assets/packages/flutter_icons/fonts/FontAwesome.ttf": "b06871f281fee6b241d60582ae9369b9",
+"assets/packages/flutter_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
+"assets/packages/flutter_icons/fonts/EvilIcons.ttf": "140c53a7643ea949007aa9a282153849",
+"assets/packages/flutter_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
+"assets/packages/flutter_icons/fonts/MaterialIcons.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
+"assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
+"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
+"assets/shaders/ink_sparkle.frag": "c13b01e7e61d87b18e8b340a54825214",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/assets/config/app_config.json": "a4675aa6b5ca2af2ab6f0c8217e478ab",
+"assets/assets/images/bg-01.png": "573d52fadaa66c5efdbedf3470356952",
+"assets/assets/images/logo-icon.png": "f7512a1b7c8a43be75cb74cc998e16dc",
+"assets/assets/images/logo-bbg.png": "97a126fb5302d4f8d1e53ec32bf30ca9",
+"assets/assets/images/logo-wbg.png": "2b5e6ab0b862731cdfe69f189d363ce1",
+"assets/assets/images/engineer.png": "bdbd2a30e62255aff018f4df47f880be",
+"assets/assets/images/logo2-bbg.png": "e322f758229f8ad18a9334958c4eaf19",
+"assets/assets/images/logo-wbg-02.jpg": "b6f652e2b5363f941a20b1289a6a7656",
 "assets/assets/fonts/Poppins/Poppins-Light.ttf": "f6ea751e936ade6edcd03a26b8153b4a",
 "assets/assets/fonts/Poppins/Poppins-Medium.ttf": "f61a4eb27371b7453bf5b12ab3648b9e",
+"assets/assets/fonts/Poppins/Poppins-ExtraBold.ttf": "544fa4f2678a8285eb88b8dfe503c90c",
 "assets/assets/fonts/Poppins/Poppins-Regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
+"assets/assets/fonts/Poppins/Poppins-Bold.ttf": "a3e0b5f427803a187c1b62c5919196aa",
+"assets/assets/fonts/Poppins/Poppins-Black.ttf": "0573b9231a8316427ad6e751b52e87a4",
 "assets/assets/fonts/Poppins/Poppins-SemiBold.ttf": "4cdacb8f89d588d69e8570edcbe49507",
-"assets/assets/images/bg-01.png": "573d52fadaa66c5efdbedf3470356952",
-"assets/assets/images/engineer.png": "bdbd2a30e62255aff018f4df47f880be",
-"assets/assets/images/logo-bbg.png": "97a126fb5302d4f8d1e53ec32bf30ca9",
-"assets/assets/images/logo-icon.png": "f7512a1b7c8a43be75cb74cc998e16dc",
-"assets/assets/images/logo-wbg-02.jpg": "b6f652e2b5363f941a20b1289a6a7656",
-"assets/assets/images/logo-wbg.png": "2b5e6ab0b862731cdfe69f189d363ce1",
-"assets/assets/images/logo2-bbg.png": "e322f758229f8ad18a9334958c4eaf19",
-"assets/FontManifest.json": "396d292d777dede3077ac80d9e3c1fab",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "c21c080f333bba87ccc822f4a625ab8c",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
-"assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
-"assets/packages/flutter_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
-"assets/packages/flutter_icons/fonts/Entypo.ttf": "744ce60078c17d86006dd0edabcd59a7",
-"assets/packages/flutter_icons/fonts/EvilIcons.ttf": "140c53a7643ea949007aa9a282153849",
-"assets/packages/flutter_icons/fonts/Feather.ttf": "6beba7e6834963f7f171d3bdd075c915",
-"assets/packages/flutter_icons/fonts/FontAwesome.ttf": "b06871f281fee6b241d60582ae9369b9",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Brands.ttf": "c39278f7abfc798a241551194f55e29f",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Regular.ttf": "f6c6f6c8cb7784254ad00056f6fbd74e",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Solid.ttf": "b70cea0339374107969eb53e5b1f603f",
-"assets/packages/flutter_icons/fonts/Foundation.ttf": "e20945d7c929279ef7a6f1db184a4470",
-"assets/packages/flutter_icons/fonts/Ionicons.ttf": "b2e0fc821c6886fb3940f85a3320003e",
-"assets/packages/flutter_icons/fonts/MaterialCommunityIcons.ttf": "3c851d60ad5ef3f2fe43ebd263490d78",
-"assets/packages/flutter_icons/fonts/MaterialIcons.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
-"assets/packages/flutter_icons/fonts/Octicons.ttf": "73b8cff012825060b308d2162f31dbb2",
-"assets/packages/flutter_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
-"assets/packages/flutter_icons/fonts/weathericons.ttf": "4618f0de2a818e7ad3fe880e0b74d04a",
-"assets/packages/flutter_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
-"assets/packages/flutter_neumorphic/fonts/NeumorphicIcons.ttf": "32be0c4c86773ba5c9f7791e69964585",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"favicon-16x16.png": "f8943346d8e7fd2e28ae9b1d08f75635",
 "favicon-32x32.png": "68dfce5af36981c797dd41a84013aea3",
-"favicon.ico": "4694e582a65f2ff630556a77b34efd81",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
-"icons/apple-touch-icon.png": "462ea2d1c53197386d29fb3472fc0021",
-"index.html": "01c30232ff17968c0a8c4cef2ceef867",
-"/": "01c30232ff17968c0a8c4cef2ceef867",
-"main.dart.js": "57c2b7623c994f780cfc987e61ec12a8",
-"manifest.json": "8b975cc7aeb0a18161321ebe921d5f35",
-"version.json": "b665b454975d8dbc3248260a14141c76"
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -63,7 +64,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -162,9 +162,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
