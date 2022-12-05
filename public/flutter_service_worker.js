@@ -52,9 +52,9 @@ const RESOURCES = {
 "favicon.ico": "4694e582a65f2ff630556a77b34efd81",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/apple-touch-icon.png": "462ea2d1c53197386d29fb3472fc0021",
-"index.html": "598a740a04311747401291cf56fe08b4",
-"/": "598a740a04311747401291cf56fe08b4",
-"main.dart.js": "0a64976c80902140f272212bbff8e65d",
+"index.html": "c8d9ce722b1f6c38d1f0b6ad8827a1cc",
+"/": "c8d9ce722b1f6c38d1f0b6ad8827a1cc",
+"main.dart.js": "0026490a118cdc62cbc5bfcbace90915",
 "manifest.json": "8b975cc7aeb0a18161321ebe921d5f35",
 "version.json": "b665b454975d8dbc3248260a14141c76"
 };
